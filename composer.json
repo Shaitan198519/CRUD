@@ -47,7 +47,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Shaitan1985\\CRUD\\": "src"
+            "shaitan198519\\CRUD\\": "src"
         }
     },
     "autoload-dev": {
@@ -70,10 +70,10 @@
         },
         "laravel": {
             "providers": [
-                "Shaitan198519\\CRUD\\BackpackServiceProvider"
+                "shaitan198519\\CRUD\\BackpackServiceProvider"
             ],
             "aliases": {
-                "CRUD": "Shaitan198519\\CRUD\\app\\Library\\CrudPanel\\CrudPanelFacade",
+                "CRUD": "shaitan198519\\CRUD\\app\\Library\\CrudPanel\\CrudPanelFacade",
                 "Widget": "Backpack\\CRUD\\app\\Library\\Widget"
             }
         }
