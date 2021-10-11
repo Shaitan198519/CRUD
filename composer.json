@@ -50,6 +50,7 @@
             "shaitan198519\\CRUD\\": "src"
         }
     },
+
     "autoload-dev": {
         "psr-4": {
             "Backpack\\CRUD\\Tests\\": "tests"
@@ -66,7 +67,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.0-dev"
+            "dev-master": "ckeditor5"
         },
         "laravel": {
             "providers": [
