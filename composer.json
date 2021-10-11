@@ -1,5 +1,5 @@
 {
-    "name": "backpack/crud",
+    "name": "shaitan198519/crud",
     "type": "library",
     "description": "Quickly build an admin interfaces using Laravel, CoreUI, Bootstrap and jQuery.",
     "keywords": [
@@ -21,7 +21,7 @@
         "content management system",
         "content management framework"
     ],
-    "homepage": "https://github.com/laravel-backpack/CRUD",
+    "homepage": "https://github.com/Shaitan198519/CRUD",
     "license": "proprietary",
     "authors": [
         {
@@ -47,7 +47,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Backpack\\CRUD\\": "src"
+            "Shaitan1985\\CRUD\\": "src"
         }
     },
     "autoload-dev": {
@@ -70,10 +70,10 @@
         },
         "laravel": {
             "providers": [
-                "Backpack\\CRUD\\BackpackServiceProvider"
+                "Shaitan198519\\CRUD\\BackpackServiceProvider"
             ],
             "aliases": {
-                "CRUD": "Backpack\\CRUD\\app\\Library\\CrudPanel\\CrudPanelFacade",
+                "CRUD": "Shaitan198519\\CRUD\\app\\Library\\CrudPanel\\CrudPanelFacade",
                 "Widget": "Backpack\\CRUD\\app\\Library\\Widget"
             }
         }
